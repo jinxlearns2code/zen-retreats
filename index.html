@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Bad+Script&family=Quicksand:wght@300&family=Urbanist:wght@300&display=swap"
+		rel="stylesheet">
+	<title>Zen Retreats</title>
+</head>
+
+<body>
+	<main>
+		<section id="header">
+			<header>
+				<div id="nav-container">
+					<nav id="nav-bar">
+						<ul>
+							<li>
+								<a href="#about-us" class="nav-link">About Us</a>
+							</li>
+							<li>
+								<a href="#what-to-expect" class="nav-link">What To Expect?</a>
+							</li>
+							<li>
+								<a href="#pricing" class="nav-link">Packages</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div id="img-container">
+					<img src="logo.jpg" alt="zen retreats logo" id="header-img">
+				</div>
+				<div id="bookdiv">
+					<input id="button" type="submit" name="submit" id="submit" value="Book Now">
+				</div>
+			</header>
+			<div id="video-wrapper">
+				<video id="bg-video" playsinline autoplay muted loop poster="bg-video-poster.png">
+					<source src="bg-video.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		<section id="header-title">
+			<h1>Zen Retreats</h1>
+			<p id="tagline">DESTINATION. LUXURY. RESPITE.</p>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input type="email" name="email" id="email" placeholder="Enter your email address" required>
+				<input type="submit" name="submit" id="submit" value="Get Started" class="btn">
+			</form>
+		</section>
+		<div class="container">
+			<section class="about-us">
+				<div class="grid">
+					<div class="icon">
+
+					</div>
+					<div class="description">
+						<h2>ALL-INCLUSIVE</h2>
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto esse sint corrupti
+							iusto deleniti perspiciatis accusamus laudantium! Voluptatem, amet adipisci aliquam aperiam
+							natus nobis placeat rerum quod quas sint minima. Lorem ipsum, dolor sit amet consectetur
+							adipisicing elit. Reiciendis alias consequuntur illum officiis nostrum inventore, commodi
+							sunt ipsa. Necessitatibus ullam eaque corrupti cupiditate? Maxime necessitatibus quaerat
+							nulla! Tempora, eius enim.
+						</p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="icon">
+
+					</div>
+					<div class="description">
+						<h2>TAILORED TO YOUR NEEDS</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab neque quod quos architecto
+							aspernatur similique non iste deleniti tempora eius, corrupti a possimus perspiciatis facere
+							reprehenderit ex nisi quas. Ipsam.
+							Quod, ipsa numquam. Magni voluptate, reiciendis amet impedit accusantium quisquam hic odit
+							alias aliquam, adipisci accusamus ut id veritatis itaque. Fugiat sed quasi numquam enim
+							velit ut adipisci omnis quidem.
+						</p>
+					</div>
+				</div>
+				<div class="grid">
+					<div class="icon">
+
+					</div>
+					<div class="description">
+						<h2>VALUE FOR MONEY</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odit id deserunt dolore,
+							dignissimos incidunt similique, molestiae quae sunt accusamus illum? Doloremque, rem
+							distinctio amet animi nobis repellendus itaque aut?
+							Iusto nobis, explicabo eos enim officia perspiciatis provident consequatur expedita illum
+							adipisci reiciendis ab, consequuntur doloribus numquam eaque, id nisi officiis recusandae
+							est pariatur dignissimos? Facere praesentium quaerat eos similique.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section id="what-to-expect">
+				<div id="video-box">
+					<iframe id="video" src="https://player.vimeo.com/video/530028933?autoplay=1&loop=1" height="700"
+						allow="autoplay" frameborder="0"></iframe>
+				</div>
+			</section>
+			<section id="pricing">
+				<div class="packages">
+					<div class="package-header">
+						<h3>$$$</h3>
+						<ol>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+						</ol>
+					</div>
+				</div>
+				<div class="packages"></div>
+				<div class="package-header">
+					<h3>$$$</h3>
+					<ol>
+						<li>Lorem ipsum.</li>
+						<li>Lorem ipsum.</li>
+						<li>Lorem ipsum.</li>
+						<li>Lorem ipsum.</li>
+					</ol>
+				</div>
+				<div class="packages">
+					<div class="package-header">
+						<h3>$$$</h3>
+						<ol>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			<footer>
+
+			</footer>
+		</div>
+	</main>
+
+	<script>
+		window.onscroll = function () {
+			let dv = document.getElementById('video-box');
+			let v = document.getElementById('video');
+			if ((window.scrollY < (dv.offsetTop + dv.offsetHeight)) && ((window.scrollY + window.outerHeight) > dv.offsetTop)) {
+				if (v.src == '' || v.src == location.href) {
+					v.src = 'https://player.vimeo.com/video/530028933?autoplay=1';
+				}
+			} else {
+				v.src = '';
+			}
+		}
+	</script>
+
+</body>
+
+
+</html>
