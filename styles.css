@@ -561,6 +561,10 @@ footer {
 		-webkit-text-size-adjust: none;
 	}
 
+	#form {
+		-webkit-text-size-adjust: none;
+	}
+
 	#nav-container {
 		justify-content: left;
 		padding: 10px;
