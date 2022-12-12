@@ -558,6 +558,7 @@ footer {
 		position: fixed;
 		z-index: 3;
 		overflow: hidden;
+		-webkit-text-size-adjust: none;
 	}
 
 	#nav-container {
