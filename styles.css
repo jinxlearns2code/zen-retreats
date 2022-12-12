@@ -132,7 +132,8 @@ li {
 
 h1 {
 	font-family: 'Cookie', cursive;
-	font-size: 3rem;
+	font-weight: lighter;
+	font-size: 4rem;
 	z-index: 2;
 	color: white;
 	letter-spacing: 5px;
