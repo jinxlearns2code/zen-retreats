@@ -287,6 +287,7 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	height: 500px;
+	margin-top: 200px;
 }
 
 #package-container {
@@ -324,12 +325,31 @@ ol {
 	margin: 50px 20px 50px 20px;
 }
 
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	width: 70%;
+	margin: 100px auto 10px auto;
+	padding-top: 200px;
+}
+
+.a-footer:hover {
+	background-color: #58585A;
+	color: white;
+	padding: 5px;
+	font-weight: 100;
+}
+
 /* Scroll Margin */
 #about-us {
-	scroll-margin-top: 50px;
+	scroll-margin-top: 70px;
 }
 
 #what-to-expect {
+	scroll-margin-top: 200px;
+}
+
+#pricing {
 	scroll-margin-top: 200px;
 }
 
@@ -464,6 +484,7 @@ ol {
 		justify-content: center;
 		align-items: center;
 		height: 700px;
+		margin-top: 50px;
 	}
 
 	#package-container {
@@ -506,6 +527,12 @@ ol {
 		margin: 0
 	}
 
+	footer {
+		width: 100%;
+		margin: 10px 0 20px 0;
+		padding-top: 50px;
+	}
+
 	/* Scroll Margin */
 	#about-us {
 		scroll-margin-top: 50px;
@@ -514,6 +541,10 @@ ol {
 	#what-to-expect {
 		scroll-margin-top: 120px;
 		margin-bottom: 50px;
+	}
+
+	#pricing {
+		scroll-margin-top: 120px;
 	}
 }
 
@@ -584,8 +615,11 @@ ol {
 	}
 
 	#resort-photo-container {
+		display: flex;
 		width: 100%;
-		padding: 5px;
+		justify-content: center;
+		align-items: center;
+		padding: 0 50px;
 	}
 
 	#what-to-expect {
@@ -593,12 +627,8 @@ ol {
 	}
 
 	#video-container {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 		width: 100%;
-		margin: -20px 0 80px 0;
-		padding: 5px;
+		padding-top: 0;
 	}
 
 	#video-box {
@@ -607,11 +637,11 @@ ol {
 
 	#body-video {
 		width: 100%;
-		height: auto;
 	}
 
 	#video-description-container {
 		width: 100%;
+		padding-top: 40px;
 	}
 
 	#video-caption {
@@ -623,7 +653,7 @@ ol {
 	}
 
 	#pricing {
-		margin-top: 10px;
+		margin-top: 80px;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -670,13 +700,25 @@ ol {
 		margin: 0
 	}
 
+	footer {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		width: 100%;
+		padding: 70px 0 20px 0;
+	}
+
+	footer a {
+		margin: 7px;
+	}
+
 	/* Scroll Margin */
 	#about-us {
-		scroll-margin-top: 50px;
+		scroll-margin-top: 40px;
 	}
 
 	#what-to-expect {
-		scroll-margin-top: 50px;
+		scroll-margin-top: 70px;
 		margin-bottom: 50px;
 	}
 
