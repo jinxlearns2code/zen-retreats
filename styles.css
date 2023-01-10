@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-
 }
 
 html {
@@ -309,10 +308,10 @@ h2 {
 
 h3 {
 	font-size: 1.5rem;
-	font-family: 'Bad Script', cursive;
+	font-family: 'Redressed', cursive;
 	text-align: center;
 	margin: 20px;
-	color: black;
+	color: #58585A;
 	border: 1px solid white;
 	background-color: white;
 	border-radius: 5px;
@@ -507,10 +506,8 @@ footer {
 
 	h3 {
 		font-size: 1rem;
-		font-family: 'Bad Script', cursive;
 		text-align: center;
 		margin: 5px;
-		color: black;
 		border: 1px solid white;
 		background-color: white;
 		border-radius: 5px;
@@ -685,10 +682,8 @@ footer {
 
 	h3 {
 		font-size: 1rem;
-		font-family: 'Bad Script', cursive;
 		text-align: center;
 		margin: 5px;
-		color: black;
 		border: 1px solid white;
 		background-color: white;
 		border-radius: 5px;
