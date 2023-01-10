@@ -307,7 +307,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-family: 'Redressed', cursive;
 	text-align: center;
 	margin: 20px;
@@ -376,13 +376,14 @@ footer {
 
 	#header-img {
 		position: absolute;
-		width: 150px;
-		height: 120px;
-		top: 0;
+		width: 190px;
+		height: 150px;
+		top: -1;
 		left: 0;
 		object-fit: cover;
 		overflow: hidden;
 		object-position: center;
+
 	}
 
 	#img-container {
